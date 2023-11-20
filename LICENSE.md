@@ -19,8 +19,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-Godot Engine License
---------------------
+## Godot Engine License
 
 This software uses Godot Engine, available under the following license:
 
@@ -33,10 +32,10 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-FreeType
---------
-Portions of this software are copyright © <year> The FreeType Project (www.freetype.org). All rights reserved.
+## FreeType
 
-Additional License Considerations
----------------------------------
+Portions of this software are copyright © 1996-2023 The FreeType Project (www.freetype.org). All rights reserved.
+
+## Additional License Considerations
+
 Godot has been built from source to exclude mbedTLS and ENet packages. If you recompile the project with the modules enabled, see https://docs.godotengine.org/en/stable/about/complying_with_licenses.html for additional licensing.
