@@ -1,0 +1,42 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Minimal Scratch Pad"
+run/main_scene="res://editor.tscn"
+config/features=PackedStringArray("4.1", "Forward Plus")
+boot_splash/bg_color=Color(0.976471, 0.976471, 0.976471, 1)
+boot_splash/show_image=false
+config/icon="res://icon.png"
+
+[debug]
+
+file_logging/enable_file_logging.pc=false
+file_logging/max_log_files=0
+gdscript/warnings/unassigned_variable_op_assign=0
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+
+[filesystem]
+
+import/blender/enabled=false
+import/fbx/enabled=false
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+
+[xr]
+
+openxr/startup_alert=false

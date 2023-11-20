@@ -1,0 +1,72 @@
+[gd_resource type="Theme" load_steps=8 format=3 uid="uid://dtrverxyfkjy6"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5yx8v"]
+content_margin_left = 16.0
+content_margin_top = 16.0
+content_margin_right = 4.0
+bg_color = Color(0.976471, 0.976471, 0.976471, 1)
+
+[sub_resource type="ImageTexture" id="ImageTexture_og02p"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q4lu7"]
+content_margin_left = 12.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.560784, 0.560784, 0.560784, 1)
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7n5tk"]
+content_margin_left = 12.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.498039, 0.498039, 0.498039, 1)
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gb00j"]
+content_margin_left = 12.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.376471, 0.376471, 0.376471, 1)
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_va8gt"]
+content_margin_left = 12.0
+content_margin_top = 0.0
+content_margin_right = 4.0
+content_margin_bottom = 0.0
+bg_color = Color(0.811765, 0.811765, 0.811765, 1)
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3luen"]
+content_margin_left = 12.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+draw_center = false
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_detail = 5
+expand_margin_left = 2.0
+expand_margin_top = 2.0
+expand_margin_right = 2.0
+expand_margin_bottom = 2.0
+
+[resource]
+TextEdit/colors/font_color = Color(0, 0, 0, 1)
+TextEdit/styles/normal = SubResource("StyleBoxFlat_5yx8v")
+VScrollBar/icons/decrement = SubResource("ImageTexture_og02p")
+VScrollBar/icons/decrement_highlight = SubResource("ImageTexture_og02p")
+VScrollBar/icons/decrement_pressed = SubResource("ImageTexture_og02p")
+VScrollBar/icons/increment = SubResource("ImageTexture_og02p")
+VScrollBar/icons/increment_highlight = SubResource("ImageTexture_og02p")
+VScrollBar/icons/increment_pressed = SubResource("ImageTexture_og02p")
+VScrollBar/styles/grabber = SubResource("StyleBoxFlat_q4lu7")
+VScrollBar/styles/grabber_highlight = SubResource("StyleBoxFlat_7n5tk")
+VScrollBar/styles/grabber_pressed = SubResource("StyleBoxFlat_gb00j")
+VScrollBar/styles/scroll = SubResource("StyleBoxFlat_va8gt")
+VScrollBar/styles/scroll_focus = SubResource("StyleBoxFlat_3luen")
