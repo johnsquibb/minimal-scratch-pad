@@ -8,7 +8,7 @@ Open it. Type text into the window. Close window. Lose text forever.
 Supports copy/paste/cut and undo/redo using common Windows shortcuts.
 
 ## Installation/Usage
-Download and run the desired .exe version in the builds directory.
+Download and run the desired .exe version in the releases directory.
 
 ## Modifying the Project
 Download Godot 4.1.3 or greater and import the project to run it. Make any modifications and run the debugger.
