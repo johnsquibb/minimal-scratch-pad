@@ -24,4 +24,4 @@ The project is built via scons with Godot source 4.1.3. See the build.py file fo
 
 ## TODO
 - Make the final export .exe smaller. If you have suggestions for edits to the build.py to get the build smaller than 45MB, please file a PR.
-- Fix "Godot Engine" tooltip displayed when hovering over app icon pinned to Windows Taskbar. Not 100% sure what controls this.
+- Fix "Godot Engine" tooltip displayed when hovering over app icon pinned to Windows Taskbar. I'm uncertain which parameter controls this.
